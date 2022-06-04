@@ -1,6 +1,6 @@
-$(function() {
+﻿$(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('我就知道橘子姐姐您一定会愿意的。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -14,43 +14,43 @@ $(function() {
 });
 
 function A() {
-    modal('我喜欢你！', B);
+    modal('上天派我来凡间', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('就是为了让我找到你', C);
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('请你跟我走吧', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('王母娘娘说了', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我', F);
+    modal('你本不属于人间', F);
 }
 
 function F() {
-    modal('跟我走吧', G);
+    modal('是那次宴会上的一个意外', G);
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('你落入凡尘', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('现在，让我带你重回仙界', I);
 }
 
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('请带上你的手机', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('滴滴一下出发吧！！！', function() {
         fireworks();
     });
 }
